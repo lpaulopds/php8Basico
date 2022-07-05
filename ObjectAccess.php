@@ -17,8 +17,9 @@ class Humano
 
 $a = new Humano();
 $b = new Humano();
-$a->setPrivate($b, 'João');
 
 $a->apresentar();
+$a->setPrivate($b, 'João');
 echo PHP_EOL; // Quebra de linha no terminal
+
 $b->apresentar();

@@ -1,7 +1,7 @@
 <?php
 
 /**A expressão condicional 'match' é semelhante ao 'switch'
- * Só que com menos escrita e mais parecido com um array
+ * só que com menos escrita e mais parecido com um array
  * Podendo usar apenas uma expressão para cada condição
  * 
  * IMPORTANTE:
@@ -19,7 +19,7 @@ print match ($x) {
 
 echo PHP_EOL; // Quebra de linha no terminal
 
-# é possível executar a mesma operação para várias condições
+# é possível executar a mesma operação para vários tipos condições
 $x = 5;
 $opcao = print match ($x) {
     2 => 'é 2',

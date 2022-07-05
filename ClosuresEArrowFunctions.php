@@ -21,9 +21,9 @@ echo PHP_EOL; // Quebra de linha no terminal
 /**Arrow Function 
  * É uma função anônima escrita com menos códigos
  * Foi introduzido no PHP 7.4
- * Tem as mesmas caracterisiticas de uma função CLOSURE
+ * Tem as mesmas características de uma função CLOSURE
  * com a diferença que capturam automaticamente as variáveis globais
- * Usa a palavra reservada 'fn', não precisa de return nem de chaves/chavetas
+ * Usa a palavra reservada 'fn' e não precisa de return nem de chaves/chavetas
  */
 
 $x = 20;

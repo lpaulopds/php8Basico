@@ -17,7 +17,7 @@ foreach ($nomes as $nome) {
     }
 }
 
-# Volta ao inicio do loop quando $i é igual a 10, e retorna com o valor de $i incrementado sem mostrar o valor 10
+# Volta ao início do loop quando $i é igual a 10, e retorna com o valor de $i incrementado sem mostrar o valor 10
 for ($i = 0; $i < 20; $i++) {
     if ($i == 10) {
         continue;
@@ -25,7 +25,7 @@ for ($i = 0; $i < 20; $i++) {
     print $i . PHP_EOL;
 }
 
-# Volta ao inicio do loop quando $nome é igual a 'Maria', e retorna com o valor de $nome incrementado sem mostrar a string 'Maria'
+# Volta ao início do loop quando $nome é igual a 'Maria', e retorna com o valor de $nome incrementado sem mostrar a string 'Maria'
 $nomes = ['João', 'Maria', 'José'];
 foreach ($nomes as $nome) {
     if ($nome == 'Maria') {
@@ -47,5 +47,5 @@ for ($i = 0; $i < 20; $i++) {
 }
 # Este print não vai ser executado. Apenas o label teste
 print 'fim do loop';
-teste:
-print 'Aqui';
+# Label
+teste: print 'Aqui';

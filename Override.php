@@ -72,7 +72,7 @@ echo PHP_EOL; // Quebra de linha no terminal
 print $quad->calculaArea();
 echo PHP_EOL; // Quebra de linha no terminal
 
-# também é poosível chamar o construtor da classe pai usando a expressão parent
+# também é possível chamar o construtor da classe pai usando a expressão parent
 class Quadrado1 extends Retangulo
 {
     function __construct($l)

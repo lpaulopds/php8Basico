@@ -20,7 +20,7 @@ for (; $i < 10;) {
 }
 echo PHP_EOL; // Quebra de linha no terminal
 
-# o primeiro e último podem conter várias condições separadas por vírgulas
+# o primeiro e último parâmetros podem conter várias condições separadas por vírgulas
 for ($contador = 1, $x = 10; $contador < 10; $contador++, $x--) {
     print $x;
 }

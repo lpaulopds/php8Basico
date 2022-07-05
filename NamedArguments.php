@@ -1,11 +1,12 @@
 <?php
 
-/**no PHP 7, para alterar o valor de $c é preciso
+/**No PHP 7, para alterar o valor de $c é preciso
  * declarar os valores pré definidos também no argumento
- * para poder chegar no valor de $c e fazer a alteração.
+ * da chamada da função para poder chegar no valor de $c
+ * e fazer a alteração
  * No exemplo abaixo, foi preciso declarar o valor de $b
- * novamente, neste caso o '10', e escrever o novo valor
- * de $c que será '300'. 
+ * novamente, neste caso o '10', e reescrever o novo valor
+ * de $c que será '300'
  */
 
 function adicionar($a, $b = 10, $c = 20)

@@ -17,7 +17,7 @@ $animal->especie = 'Mamíferos';
 print $animal->tipoEspecie();
 
 /**Classe com herança
- * não precisa declarar novamente as propriedades e métodos da classe extendida
+ * Não precisa declarar novamente as propriedades e métodos da classe extendida
  */
 class Mamifero extends Animais
 {

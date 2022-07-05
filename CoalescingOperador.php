@@ -2,6 +2,7 @@
 
 $x = null;
 $nome = $x ?? 'sem nome';
+
 # o exemplo acima é semelhante a este
 $nome1 = isset($x) ? $x : 'sem nome';
 

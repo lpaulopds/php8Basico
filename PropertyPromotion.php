@@ -12,7 +12,7 @@ class Human1
     }
 }
 
-# No PHP 8, as classes podem escritas da seguinte maneira
+# No PHP 8, as classes podem ser escritas da seguinte maneira
 class Human2
 {
     function __construct(public $nome, public $sobrenome)

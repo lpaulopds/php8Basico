@@ -39,6 +39,7 @@ class Human2
     }
 }
 
+# Pode ter várias instâncias com argumentos diferentes
 $worker = new Human2('nome', 'apelido');
 $worker2 = new Human2('nomeDois', 'apelidoDois');
 

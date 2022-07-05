@@ -34,6 +34,7 @@ final class Humano
 
 class Homem extends Humano
 {
+    
 }
 
 $h = new Homem();

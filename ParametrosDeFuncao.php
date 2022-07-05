@@ -3,8 +3,7 @@
 /**Os parâmetros de função permitem passar valores para
  * o interior da função quando ela é chamada
  * Parâmetros são separados por vírgula
- * Obs.:
- * parâmetros são os nomes das variáveis
+ * Obs.: Parâmetros são os nomes das variáveis,
  * argumentos são os dados passados quando a função é chamada
  */
 
@@ -31,11 +30,11 @@ function saudacao($valor)
 
 /**Aula 34
  * Parâmetros opcionais
- * Os parâmetros de uma função podem conter valores pré definidos '$b = 2',
+ * Os parâmetros de uma função podem conter valores pré definidos,
+ * exemplo: '$b = 2',
  * podendo ser alterado ou não no argumento da função
- * Obs.:
- * No PHP 8, o parâmetro pré definido tem ser declarado após
- * os parâmetros não que não são pré definidos
+ * Obs.: No PHP 8, o parâmetro pré definido tem ser declarado após
+ * os parâmetros que não são pré definidos
  */
 
 function multiplicar($a, $b = 2)
@@ -43,7 +42,7 @@ function multiplicar($a, $b = 2)
     print $a * $b;
 }
 
-# se o valor não for alterado aqui no argumento, ele será = 2
+# se o valor não for alterado aqui no argumento, $b continuará = 2
 multiplicar(10);
 echo PHP_EOL; // quebra de linha no terminal
 # aqui o valor foi alterado no argumento, assumindo um novo resultado
