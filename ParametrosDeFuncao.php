@@ -42,7 +42,7 @@ function multiplicar($a, $b = 2)
     print $a * $b;
 }
 
-# se o valor não for alterado aqui no argumento, $b continuará = 2
+# se o valor não for alterado no argumento, $b continuará = 2
 multiplicar(10);
 echo PHP_EOL; // quebra de linha no terminal
 # aqui o valor foi alterado no argumento, assumindo um novo resultado

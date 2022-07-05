@@ -1,8 +1,8 @@
 <?php
 
 /**O PHP sempre tentará converter os tipos de dados declarados 
- * Com o declare strict_types=1 no inicio de script só será
- * possível utilizar os tipos de dados declarados
+ * Com o declare strict_types=1 no inicio de script, só será
+ * possível utilizar os tipos de dados declarados nos parâmetros
  */
 
 declare(strict_types=1);

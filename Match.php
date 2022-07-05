@@ -19,7 +19,7 @@ print match ($x) {
 
 echo PHP_EOL; // Quebra de linha no terminal
 
-# é possível executar a mesma operação para vários tipos condições
+# é possível executar a mesma operação para vários tipos de condições
 $x = 5;
 $opcao = print match ($x) {
     2 => 'é 2',
